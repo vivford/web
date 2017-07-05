@@ -47,7 +47,7 @@ bitches
 <hr>
 <span style="font-family: monospace; font-size: 24px"><b>we give away <a href="https://github.com/commaai/openpilot">software</a> to make your car self driving</b></span><br/><br/>
 <iframe id="ytplayer" type="text/html" width="640" height="360"
-    src="https://www.youtube.com/embed/Q8xaniiSYZo?autoplay=0&origin=http://comma.ai"
+    src="https://www.youtube.com/embed/PwOnsT2UW5o?autoplay=0&origin=http://comma.ai"
     frameborder="0"></iframe><br/><br/>
 <span style="font-family: monospace; font-size: 18px"><a href="https://github.com/commaai/openpilot">openpilot</a>: open source autopilot</span><br/>
 <span style="font-family: monospace; font-size: 18px"><a href="https://github.com/commaai/neo">neo</a>: robotics platform</span><br/>
@@ -62,17 +62,23 @@ bitches
 do you like <a href="https://commacoloring.com">coloring books</a>?
 </span>
 <hr/>
+<span style="font-family: monospace; font-size: 24px"><b>we build panda</b></span><br/><br/>
+<img src="img/panda.png"><br/>
+panda is the nicest universal car interface ever<br/>
+integrates with <a href="http://getchffr.com">chffr</a> and <a href="https://github.com/commaai/openpilot">openpilot</a></br>
+<a href="https://github.com/commaai/panda">100% open source</a><br/>
+<hr/>
+<span style="font-family: monospace; font-size: 24px"><b>we have a community</b></span><br/><br/>
+<span style="font-family: monospace; font-size: 18px"><a href="https://slack.comma.ai/">slack</a></span>&nbsp;&nbsp;&nbsp;
+<span style="font-family: monospace; font-size: 18px"><a href="https://community.comma.ai/">forum</a></span>&nbsp;&nbsp;&nbsp;
+<span style="font-family: monospace; font-size: 18px"><a href="https://wiki.comma.ai/">wiki</a></span>
+<hr/>
 <span style="font-family: monospace; font-size: 24px"><b>we are <a href="positions.html">hiring</a></b></span><br/><br/>
 <span style="font-family: monospace; font-size: 16px">
 come work with the smartest people you've ever met<br/>
 on the <em>project</em> that will define a decade<br/><br/>
 we look for people like <a href="hiring.html">this</a><br/>
 and people who can solve our <a href="http://commachallenge.s3-us-west-2.amazonaws.com/speed_challenge_2017.tar">programming challenge</a><br/>
-<hr/>
-<span style="font-family: monospace; font-size: 24px"><b>we have a community</b></span><br/><br/>
-<span style="font-family: monospace; font-size: 18px"><a href="https://slack.comma.ai/">slack</a></span>&nbsp;&nbsp;&nbsp;
-<span style="font-family: monospace; font-size: 18px"><a href="https://community.comma.ai/">forum</a></span>&nbsp;&nbsp;&nbsp;
-<span style="font-family: monospace; font-size: 18px"><a href="https://wiki.comma.ai/">wiki</a></span>
 <hr/>
 <span style="font-family: monospace; font-size: 24px"><b>we pay out <a href="bounties.html">bounties</a></b></span><br/><br/>
 for ports of <a href="https://github.com/commaai/openpilot">openpilot</a> to new cars
@@ -101,53 +107,5 @@ we didn't do anything wrong, but somehow, we lost<br/>
 <em>-- <a href="https://www.reddit.com/r/business/comments/48841a/nokia_ceo_ended_his_speech_saying_this_we_didnt/">nokia</a>, or car companies in 5 years</em>
 <br/><br/>
 </span>
-
-<!--
-<div style="width: 400px; height: 300px">
-<span id="sleeping" style="font-family: monospace">the test platform is sleeping...zzz</span><br/>
-<div style="visibility: hidden" id="map"></div>
-</div>
-
-<script>
-
-
-function update_map(x, y) {
-  if (x != 0 && y != 0) {
-    map.setCenter({lat: x, lng: y});
-    marker.setPosition({lat: x, lng: y});
-
-    $("#map")[0].style.visibility = "visible";
-    $("#sleeping")[0].style.visibility = "hidden";
-  } else {
-    $("#map")[0].style.visibility = "hidden";
-    $("#sleeping")[0].style.visibility = "visible";
-  }
-}
-
-function do_update_map() {
-  $.getJSON("data/location.json", function(data) {
-    //console.log(data);
-    update_map(data.gps[0], data.gps[1]);
-    window.setTimeout(do_update_map, 2000);
-  });
-}
-
-function initMap() {
-  test_location = {lat: 37.7833, lng: -122.4167};
-  map = new google.maps.Map(document.getElementById('map'), {
-    center: test_location,
-    disableDefaultUI: true,
-    zoom: 11
-  });
-  marker = new google.maps.Marker({
-    position: test_location,
-    map: map
-  });
-  do_update_map();
-}
-
-</script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDu2lXe6b5E55W6iKajZbZ0jB5Im0Byk3M&callback=initMap" async defer></script>
--->
 </center>
 
